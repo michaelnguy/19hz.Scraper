@@ -1,5 +1,5 @@
 # 19hz.Scraper
-A Python-based web scraper that pulls event data from 19hz.info and outputs a beauftified JSON file
+A Python-based web scraper that pulls event data from 19hz.info and outputs a beautified JSON file
 
 ## Fields
 19hz.Scraper returns the following fields:
