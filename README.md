@@ -26,7 +26,7 @@ The following instructions will help you get the project up and running.
 ```
 sudo pip install HTMLParser
 ```
-4. Progess Bar
+4. Progress Bar
 ```
 sudo pip install progress
 ```
