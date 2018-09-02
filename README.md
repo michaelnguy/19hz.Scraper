@@ -86,4 +86,4 @@ See also the list of [contributors](https://github.com/michaelnguy/19hz.Scraper/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/michaelnguy/19hz.Scraper/blob/master/LICENSE) file for details
