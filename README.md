@@ -45,9 +45,30 @@ sudo pip install selenium
 ```
 cd 19hzScraper
 ```
-2. Run the .py
+2. Before you run the project, you have the option to run in headless mode and/or to sort the JSON file.
+- Note: As long as you include the sort key and/or the '-hl' option in the arguments (in any ordering), any extraneous subsequent arguments will be ignored and the program should still run.
+##### Sort keys
+- age
+- name
+- price
+- datetime
+- location
+#### Head mode, no sorting
 ```
-python 19hzScraper.py
+python 19hzScraper.py 
+```
+#### Head mode, sorted by name
+```
+python 19hzScraper.py name
+```
+#### Headless mode, no sorting
+```
+python 19hzScraper.py -hl
+```
+#### Headless mode, sorted by age
+```
+python 19hzScraper.py -hl age
+python 19hzScraper.py age -hl
 ```
 3. Wait for the output file
 ```
@@ -65,7 +86,8 @@ python 19hzScraper.py
                 "deep house", 
                 "tech house"
             ]
-        }...
+        }
+...
 ```
 ## Parsing the JSON
 If I want to print out the event name and age requirement in Python,
