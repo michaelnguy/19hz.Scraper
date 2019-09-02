@@ -63,7 +63,7 @@ def gather(filter):
 	columns = len(driver.find_elements_by_xpath("//table[1]/thead/tr/th"))
 
 	# Initialize a progress bar to visualize progress on the webscrape
-	progress_col = columns - 1;
+	progress_col = columns - 1
 	bar = IncrementalBar('> Generating JSON file ...', max = rows * progress_col, suffix='%(percent)d%%')
 
 	# Data Structure for the scrapped data
